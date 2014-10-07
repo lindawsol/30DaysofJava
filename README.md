@@ -1,4 +1,4 @@
-30DayofJava
+30DaysofJava
 ===========
 
 Day 0: setting up repository. 
