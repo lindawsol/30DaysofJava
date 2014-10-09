@@ -4,8 +4,20 @@
 public class Logic {
 
     public static void main(String[] args) {
-        System.out.println(luckySum(1, 2, 3));
-        System.out.println(luckySum(13, 1, 2));
+
+        if (luckySum(5, 2, 13) == 7) {
+            System.out.println("Yep, it is 7!");
+        } else {
+            System.out.println("Ah! it didn't work!");
+        }
+
+
+        if (noTeenSum(1, 16, 15) == 32) {
+            System.out.println("Yep, it is 32!");
+        } else {
+            System.out.println("Nope, test failed!");
+        };
+
 
     }
 
@@ -38,10 +50,21 @@ public class Logic {
      Source: http://codingbat.com/prob/p182879
      */
 
-   //public static int noTeenSum(int a, int b, int c) {
+    public static int noTeenSum(int a, int b, int c) {
+        int sum = fixTeen(a) + fixTeen(b) + fixTeen(c);
+        return sum;
+    }
 
+    public static int fixTeen(int n) {
+        int actualValue = n;
+        if (13 <= n && n <= 19) { // Turns out, 13 <= n <= 19 isn't the correct syntax!
+            actualValue = 0;
+            if (n == 15 || n == 16 ) {
+                actualValue = n;
+            }
+            }
+        return actualValue;
+        }
 
-
-    //}
-}
+    }
 
