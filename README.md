@@ -1,6 +1,8 @@
 30DaysofJava
 ===========
 
+http://30daysofgithub.tumblr.com/
+
 Day 0: setting up repository.
 
 Day 1: Exercises on randomness.
