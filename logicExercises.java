@@ -13,7 +13,29 @@ public class logicExercises {
             System.out.println("Yep, it is 32!");
         } else {
             System.out.println("Nope, test failed!");
-        };
+        }
+        ;
+
+        if (blackjack(1, 21) == 21) {
+            System.out.println("Yep, it is 21!");
+        } else {
+            System.out.println("Nope, test failed!");
+        }
+        ;
+
+        if (blackjack(21, 21) == 21) {
+            System.out.println("Yep, it is 21!");
+        } else {
+            System.out.println("Nope, test failed!");
+        }
+        ;
+
+        if (blackjack(19, 20) == 20) {
+            System.out.println("Yep, it is 20!");
+        } else {
+            System.out.println("Nope, test failed!");
+        }
+        ;
 
 
     }
@@ -27,13 +49,15 @@ public class logicExercises {
     public static int luckySum(int a, int b, int c) {
         if (a == 13) {
             a = 0;
-        };
+        }
+        ;
         if (b == 13) {
             b = 0;
         }
         if (c == 13) {
             c = 0;
-        };
+        }
+        ;
         int sum = a + b + c;
         return sum;
     }
@@ -56,12 +80,51 @@ public class logicExercises {
         int actualValue = n;
         if (13 <= n && n <= 19) { // Turns out, 13 <= n <= 19 isn't the correct syntax!
             actualValue = 0;
-            if (n == 15 || n == 16 ) {
+            if (n == 15 || n == 16) {
                 actualValue = n;
             }
-            }
-        return actualValue;
         }
-
+        return actualValue;
     }
+
+    /*
+
+    Given 2 int values greater than 0, return whichever value is nearest to 21 without going over.
+    Return 0 if they both go over.
+    blackjack(19, 21) → 21
+    blackjack(21, 19) → 21
+    blackjack(19, 22) → 19
+    Source: http://codingbat.com/prob/p117019
+     */
+
+    public static int blackjack(int a, int b) { //OMG this is the worst code ever.
+        if (a <= 21 && b <= 21) {
+            if (21 - a < 21 - b) {
+                return a;
+            } else {
+                return b;
+            }
+        } else if (a > 21 && b > 21) {
+            return 0;
+        } else if (a > 21) {
+            return b;
+        } else {
+            return a;
+        }
+    }
+    public static int blackjackImproved (int a, int b) {
+        if (a > 21)
+            a = 0;
+        if (b > 21)
+            b = 0;
+
+        if (a > b)
+            return a;
+            else {
+            return b;
+        }
+    }
+}
+
+
 
