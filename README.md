@@ -12,3 +12,5 @@ Day 2: Exercises on basic logic.
 Day 3: More boolean magic.
 
 Day 4: blackjack.
+
+Day 5: Squirrels will play. 
