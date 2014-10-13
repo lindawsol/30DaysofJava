@@ -8,23 +8,20 @@
  makeChocolate(4, 1, 9) → 4
  makeChocolate(4, 1, 10) → -1
  makeChocolate(4, 1, 7) → 2
+ Source: http://codingbat.com/prob/p191363
  */
 public class makeChocolate {
     public static void main(String[] args) {
         System.out.println(makeChocolate(4, 1, 9));
         System.out.println(makeChocolate(4, 1, 10));
         System.out.println(makeChocolate(4, 1, 7));
+        System.out.println(makeChocolate(6, 1, 10));
+        System.out.println(makeChocolate(6, 2, 7));
     }
-    public static int makeChocolate(int small, int big, int goal){
-        int result = -1;
-        int bigKilo = big*5;
-        int inventory = bigKilo + small;
-        int enough = goal - inventory;
-        if (enough <= 0)
-            if (goal-bigKilo <= small)
-                result = goal-bigKilo;
 
-        return result;
+    public static int makeChocolate(int small, int big, int goal){
+        int s = goal - Math.min(big, goal / 5 ) * 5 ;
+        return (s <= small) ? s : -1;
     }
 
 }
