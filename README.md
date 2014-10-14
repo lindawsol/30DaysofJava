@@ -16,3 +16,5 @@ Day 4: blackjack.
 Day 5: Squirrels will play. 
 
 Day 6: Made some chocolate. 
+
+Day 7: greenTicket and squirrell parties. 
