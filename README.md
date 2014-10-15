@@ -19,4 +19,6 @@ Day 6: Made some chocolate.
 
 Day 7: greenTicket and squirrell parties. 
 
-Day 8: loneSum. 
+Day 8: loneSum.
+
+Day 9:
