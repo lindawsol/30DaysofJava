@@ -22,3 +22,5 @@ Day 7: greenTicket and squirrell parties.
 Day 8: loneSum.
 
 Day 9: makeBricks, love6, allDigitsOdd.
+
+Day 10: evenlySpaced.
