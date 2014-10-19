@@ -24,3 +24,7 @@ Day 8: loneSum.
 Day 9: makeBricks, love6, allDigitsOdd.
 
 Day 10: evenlySpaced.
+
+Day 11: evenlySpaced part 2. 
+
+Day 12: dateFashion. 
