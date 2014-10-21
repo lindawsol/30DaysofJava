@@ -30,3 +30,5 @@ Day 11: evenlySpaced part 2.
 Day 12: dateFashion. 
 
 Day 13: A fizzString. 
+
+Day 14: hasMidpoint. 
