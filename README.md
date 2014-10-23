@@ -34,3 +34,5 @@ Day 13: A fizzString.
 Day 14: hasMidpoint. 
 
 Day 15: sameFirstLast. 
+
+Day 16: shareDigit. 
