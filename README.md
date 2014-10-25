@@ -38,3 +38,5 @@ Day 15: sameFirstLast.
 Day 16: shareDigit. 
 
 Day 17: roudnSum. 
+
+Day 18: withoutDoubles. 
