@@ -40,3 +40,5 @@ Day 16: shareDigit.
 Day 17: roudnSum. 
 
 Day 18: withoutDoubles. 
+
+Dahy 19: inOrder. 
