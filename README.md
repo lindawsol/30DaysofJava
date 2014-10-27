@@ -41,4 +41,6 @@ Day 17: roudnSum.
 
 Day 18: withoutDoubles. 
 
-Dahy 19: inOrder. 
+Day 19: inOrder. 
+
+Day 20: less20. 
