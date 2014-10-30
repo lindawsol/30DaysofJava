@@ -48,3 +48,5 @@ Day 20: less20.
 Day 21: inOrderEqual and answerCell.
 
 Day 22: specialEleven. 
+
+Day 23: lastDigit. 
