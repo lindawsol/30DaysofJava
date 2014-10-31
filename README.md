@@ -50,3 +50,5 @@ Day 21: inOrderEqual and answerCell.
 Day 22: specialEleven. 
 
 Day 23: lastDigit. 
+
+Day 24: old35. 
