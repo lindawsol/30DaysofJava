@@ -52,3 +52,5 @@ Day 22: specialEleven.
 Day 23: lastDigit. 
 
 Day 24: old35. 
+
+Day 25: sortaSum. 
