@@ -56,3 +56,5 @@ Day 24: old35.
 Day 25: sortaSum. 
 
 Day 26: in1to10. 
+
+Day 27: teaParty. 
